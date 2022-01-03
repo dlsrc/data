@@ -1,0 +1,24 @@
+{
+    "name": "dl/data",
+    "type": "library",
+    "description": "Working with data sources",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dlsrc/data"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Dmitry Lebedev",
+            "email": "dl@adios.ru",
+            "homepage": "https://adios.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "dl/generic": "^1.0.0"
+    }
+}
